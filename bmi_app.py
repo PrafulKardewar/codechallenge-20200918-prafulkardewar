@@ -7,7 +7,7 @@ count=0
 
 
 def clean_and_fix_the_data(table_info):
-    count = 0
+    global count
     flag = 0
     for row in table_info:
         if flag == 0:
